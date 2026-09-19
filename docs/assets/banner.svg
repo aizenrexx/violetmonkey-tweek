@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="violetmonkey-tweek - A Windows tweaking and automation toolkit.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f0a1c"/><stop offset="0.55" stop-color="#1c1030"/><stop offset="1" stop-color="#1c1030"/>
+    </linearGradient>
+    <radialGradient id="g1" cx="0.14" cy="0.1" r="0.66">
+      <stop offset="0" stop-color="#c084fc" stop-opacity="0.20"/><stop offset="1" stop-color="#c084fc" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2" cx="0.9" cy="0.95" r="0.7">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.20"/><stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c084fc"/><stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#43286a" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+  <rect width="1200" height="300" fill="url(#grid)"/>
+  <rect width="1200" height="300" fill="url(#g1)"/>
+  <rect width="1200" height="300" fill="url(#g2)"/>
+
+  <g transform="translate(80,80)">
+    <rect width="140" height="140" rx="34" fill="#1c1130" stroke="#261640" stroke-width="1.5"/>
+    <g transform="translate(20,20) scale(1.0)"><circle cx="38" cy="38" r="13" fill="none" stroke="#c084fc" stroke-width="7"/><path d="M47 47 L76 76" stroke="#c084fc" stroke-width="8" stroke-linecap="round"/></g>
+  </g>
+
+  <text x="258" y="140" font-family="Segoe UI, system-ui, sans-serif" font-size="52" font-weight="700" letter-spacing="1.5" fill="#f6efff">violetmonkey-tweek</text>
+  <rect x="260" y="166" width="640" height="1.6" fill="#43286a"/>
+  <text x="260" y="196" font-family="Segoe UI, system-ui, sans-serif" font-size="16.5" fill="#a894c8">A Windows tweaking and automation toolkit.</text>
+
+  <g font-family="Segoe UI, system-ui, sans-serif" font-size="13" font-weight="600" fill="#e6d6ff">
+    <rect x="260" y="232" width="83" height="32" rx="16" fill="#1c1130" stroke="#4d3178"/>
+    <text x="302" y="253" text-anchor="middle">Windows</text>
+    <rect x="355" y="232" width="108" height="32" rx="16" fill="#1c1130" stroke="#4d3178"/>
+    <text x="409" y="253" text-anchor="middle">PowerShell</text>
+    <rect x="475" y="232" width="108" height="32" rx="16" fill="#1c1130" stroke="#4d3178"/>
+    <text x="529" y="253" text-anchor="middle">Automation</text>
+    <rect x="595" y="232" width="75" height="32" rx="16" fill="#1c1130" stroke="#4d3178"/>
+    <text x="633" y="253" text-anchor="middle">Tweaks</text>
+  </g>
+
+  <g transform="translate(940,72)">
+    <rect x="0" y="0" width="180" height="34" rx="17" fill="#1c1130" stroke="#4d3178"/>
+    <circle cx="24" cy="17" r="5" fill="#c084fc"/>
+    <text x="40" y="22" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5" font-weight="600" fill="#e6d6ff">violetmonkey-tweek</text>
+  </g>
+
+  <rect x="0" y="297" width="1200" height="3" fill="url(#mark)" opacity="0.55"/>
+</svg>
